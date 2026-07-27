@@ -1,0 +1,50 @@
+<!--
+  templates/chat_export_template.html
+  ------------------------------------
+  Optional HTML template for exporting a chat transcript / business report
+  from the Universal-RAG assistant. Not required to run the app — provided
+  as a starting point if you extend app.py with a "Download conversation as
+  HTML" feature (e.g. via Python's string.Template or Jinja2).
+
+  Placeholders (Jinja2-style):
+    {{ title }}          - report title
+    {{ generated_at }}   - timestamp
+    {{ messages }}       - list of {role, content, sources}
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ title }}</title>
+<style>
+  body { font-family: "Noto Sans", "Noto Sans Bengali", Arial, sans-serif; margin: 40px; color: #1a1a1a; background: #fafafa; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 24px; }
+  .message { padding: 14px 18px; border-radius: 10px; margin-bottom: 12px; max-width: 800px; }
+  .user { background: #e8f0fe; margin-left: auto; }
+  .assistant { background: #ffffff; border: 1px solid #e0e0e0; }
+  .role { font-weight: 600; font-size: 12px; text-transform: uppercase; color: #888; margin-bottom: 6px; }
+  .sources { margin-top: 8px; font-size: 12px; color: #555; }
+  .sources ul { margin: 4px 0 0 18px; padding: 0; }
+</style>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <div class="meta">Generated: {{ generated_at }} · Universal-RAG Business Query System</div>
+
+  {% for m in messages %}
+  <div class="message {{ m.role }}">
+    <div class="role">{{ m.role }}</div>
+    <div class="content">{{ m.content }}</div>
+    {% if m.sources %}
+    <div class="sources">
+      Sources:
+      <ul>
+        {% for s in m.sources %}<li>{{ s }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</body>
+</html>

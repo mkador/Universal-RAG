@@ -1,0 +1,86 @@
+2026-07-24 11:02:36 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 11:08:59 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 11:09:49 | INFO     | modules.loaders | load_directory: loaded 0 document chunks total from D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data
+2026-07-24 11:41:08 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 11:41:38 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 11:42:24 | INFO     | universal_rag | Saved uploaded file 'Nakib Islam.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\Nakib Islam.pdf
+2026-07-24 11:42:27 | INFO     | modules.loaders | Loaded PDF 'Nakib Islam.pdf' -> 2 page(s)
+2026-07-24 11:42:27 | INFO     | modules.splitter | split_documents: 2 docs -> 7 chunks
+2026-07-24 11:42:35 | INFO     | modules.vectordb | add_documents: added 7 new chunk(s) to the vector store
+2026-07-24 11:42:50 | INFO     | modules.rag_chain | [ffd89daa-0866-48a8-a526-dee584212ac0] Question detected as 'en': hi
+2026-07-24 11:42:50 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 11:50:49 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 11:51:09 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 11:51:18 | INFO     | modules.rag_chain | [d5c6199f-130a-44dc-9a0f-39051e267cd1] Question detected as 'en': hi
+2026-07-24 11:51:18 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 11:58:06 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 11:58:22 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 12:01:15 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 12:01:30 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 12:02:46 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 12:03:03 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 12:03:12 | INFO     | modules.rag_chain | [7ab14044-a31d-4ccc-b065-b1c85c5df9ae] Question detected as 'en': hi
+2026-07-24 12:03:12 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 19:47:18 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 19:47:32 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 19:48:16 | INFO     | modules.rag_chain | [ec76eee2-30a4-4307-99e0-c5bbb9c22fc8] Question detected as 'en': hi
+2026-07-24 19:48:16 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 19:50:01 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 19:50:39 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 19:51:08 | INFO     | modules.vectordb | Vector store collection reset.
+2026-07-24 19:51:09 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 19:55:55 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 19:56:48 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 19:58:44 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 19:59:11 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 20:05:20 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-24 20:06:45 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-24 20:08:48 | ERROR    | modules.website_loader | Failed to fetch website 'https://olympicbd.com/': HTTPSConnectionPool(host='olympicbd.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='olympicbd.com', port=443) at 0x1108df37090>, 'Connection to olympicbd.com timed out. (connect timeout=15)'))
+2026-07-24 20:09:09 | INFO     | universal_rag | Saved uploaded file 'ML_Interview_Questions_Answers_Bilingual.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\ML_Interview_Questions_Answers_Bilingual.pdf
+2026-07-24 20:09:13 | INFO     | modules.loaders | Loaded PDF 'ML_Interview_Questions_Answers_Bilingual.pdf' -> 32 page(s)
+2026-07-24 20:09:13 | INFO     | modules.splitter | split_documents: 32 docs -> 85 chunks
+2026-07-24 20:10:10 | INFO     | modules.vectordb | add_documents: added 85 new chunk(s) to the vector store
+2026-07-24 20:10:25 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': hi
+2026-07-24 20:10:25 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 20:10:56 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': what about this pdf?
+2026-07-24 20:10:56 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 20:12:30 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': What is the difference between supervised, unsupervised, and reinforcement
+learn
+2026-07-24 20:12:30 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 20:14:50 | INFO     | universal_rag | Saved uploaded file 'ML_Interview_Questions_Answers_Bilingual.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\ML_Interview_Questions_Answers_Bilingual.pdf
+2026-07-24 20:14:55 | INFO     | modules.loaders | Loaded PDF 'ML_Interview_Questions_Answers_Bilingual.pdf' -> 32 page(s)
+2026-07-24 20:14:55 | INFO     | universal_rag | Saved uploaded file 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\Olympic_Enterprise_RAG_Demo_Documents.pdf
+2026-07-24 20:14:55 | INFO     | modules.loaders | Loaded PDF 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> 2 page(s)
+2026-07-24 20:14:55 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_PLC_Professional_Report.docx' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\docx\Olympic_Industries_PLC_Professional_Report.docx
+2026-07-24 20:14:55 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-24 20:14:55 | INFO     | modules.splitter | split_documents: 35 docs -> 163 chunks
+2026-07-24 20:15:39 | INFO     | modules.vectordb | add_documents: added 78 new chunk(s) to the vector store
+2026-07-24 20:15:59 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': What is the difference between supervised, unsupervised, and reinforcement learn
+2026-07-24 20:15:59 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 20:31:33 | INFO     | universal_rag | Saved uploaded file 'ML_Interview_Questions_Answers_Bilingual.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\ML_Interview_Questions_Answers_Bilingual.pdf
+2026-07-24 20:31:37 | INFO     | modules.loaders | Loaded PDF 'ML_Interview_Questions_Answers_Bilingual.pdf' -> 32 page(s)
+2026-07-24 20:31:37 | INFO     | universal_rag | Saved uploaded file 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\Olympic_Enterprise_RAG_Demo_Documents.pdf
+2026-07-24 20:31:38 | INFO     | modules.loaders | Loaded PDF 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> 2 page(s)
+2026-07-24 20:31:38 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_PLC_Professional_Report.docx' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\docx\Olympic_Industries_PLC_Professional_Report.docx
+2026-07-24 20:31:38 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-24 20:31:38 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data\pdf\Olympic_Industries_Sample_Policy_Dataset.pdf
+2026-07-24 20:31:38 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-24 20:31:38 | INFO     | modules.splitter | split_documents: 83 docs -> 239 chunks
+2026-07-24 20:32:18 | INFO     | modules.vectordb | add_documents: added 76 new chunk(s) to the vector store
+2026-07-24 20:32:40 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': what is the Working Hours?
+2026-07-24 20:32:40 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 20:33:41 | INFO     | modules.website_loader | Loaded website 'https://olympicbd.com/' -> 3 characters
+2026-07-24 20:33:41 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-24 20:33:41 | INFO     | modules.vectordb | add_documents: added 1 new chunk(s) to the vector store
+2026-07-24 20:35:36 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': What is Olympic Ibdustries PLC?
+2026-07-24 20:35:36 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-24 20:36:07 | INFO     | modules.loaders | Loaded PDF 'ML_Interview_Questions_Answers_Bilingual.pdf' -> 32 page(s)
+2026-07-24 20:36:08 | INFO     | modules.loaders | Loaded PDF 'Nakib Islam.pdf' -> 2 page(s)
+2026-07-24 20:36:08 | INFO     | modules.loaders | Loaded PDF 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> 2 page(s)
+2026-07-24 20:36:09 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-24 20:36:09 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-24 20:36:09 | INFO     | modules.loaders | load_directory: loaded 85 document chunks total from D:\AI-Inceptionbd(25 october 2025)\Universal-RAG\data
+2026-07-24 20:36:09 | INFO     | modules.splitter | split_documents: 85 docs -> 246 chunks
+2026-07-24 20:36:15 | INFO     | modules.vectordb | add_documents: added 7 new chunk(s) to the vector store
+2026-07-24 20:37:50 | INFO     | modules.rag_chain | [1744f44e-8c48-444b-920e-4a30a710de87] Question detected as 'en': what is the core values of OLYMPIC INDUSTRIES LIMITED?
+2026-07-24 20:37:50 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None

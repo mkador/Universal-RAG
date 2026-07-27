@@ -1,0 +1,42 @@
+## Core app
+streamlit==1.38.0
+python-dotenv==1.0.1
+
+## LangChain stack
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-openai==0.2.6
+langchain-chroma==0.1.4
+langchain-huggingface==0.1.2
+
+## Vector store
+chromadb==0.5.20
+
+## Embeddings (local fallback, multilingual)
+sentence-transformers==3.2.1
+
+## Document loaders
+pypdf==5.1.0
+python-docx==1.1.2
+docx2txt==0.8
+openpyxl==3.1.5
+pandas==2.2.3
+unstructured==0.16.5
+markdown==3.7
+
+## Website loader
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+## Language detection (English / Bangla)
+langdetect==1.0.9
+
+## Utilities
+tiktoken==0.8.0
+pydantic==2.9.2
+reportlab==4.4.0
+
+
+#ai
+langchain-google-genai==2.1.12

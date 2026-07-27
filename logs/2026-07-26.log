@@ -1,0 +1,34 @@
+2026-07-26 09:43:30 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-26 09:44:43 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-26 09:44:58 | INFO     | modules.rag_chain | [4c777c29-b0fc-4962-8714-1cd56c85f046] Question detected as 'en': hi
+2026-07-26 09:44:58 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-26 09:45:28 | INFO     | modules.rag_chain | [4c777c29-b0fc-4962-8714-1cd56c85f046] Question detected as 'en': what are you now
+2026-07-26 09:45:28 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-26 09:46:18 | INFO     | universal_rag | Saved uploaded file 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\pdf\Olympic_Enterprise_RAG_Demo_Documents.pdf
+2026-07-26 09:46:19 | INFO     | modules.loaders | Loaded PDF 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> 2 page(s)
+2026-07-26 09:46:19 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_PLC_Professional_Report.docx' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\docx\Olympic_Industries_PLC_Professional_Report.docx
+2026-07-26 09:46:19 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-26 09:46:19 | INFO     | modules.splitter | split_documents: 3 docs -> 78 chunks
+2026-07-26 09:46:19 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-26 09:48:14 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_PLC_Professional_Report.docx' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\docx\Olympic_Industries_PLC_Professional_Report.docx
+2026-07-26 09:48:15 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-26 09:48:16 | INFO     | modules.splitter | split_documents: 1 docs -> 75 chunks
+2026-07-26 09:48:16 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-26 09:48:44 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_PLC_Professional_Report.docx' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\docx\Olympic_Industries_PLC_Professional_Report.docx
+2026-07-26 09:48:44 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-26 09:48:44 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\pdf\Olympic_Industries_Sample_Policy_Dataset.pdf
+2026-07-26 09:48:46 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-26 09:48:46 | INFO     | modules.splitter | split_documents: 49 docs -> 151 chunks
+2026-07-26 09:48:46 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-26 09:49:54 | INFO     | modules.rag_chain | [4c777c29-b0fc-4962-8714-1cd56c85f046] Question detected as 'en': What is the core values of  OLYMPIC INDUSTRIES LIMITED?
+2026-07-26 09:49:54 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-26 09:56:46 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_PLC_Professional_Report.docx' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\docx\Olympic_Industries_PLC_Professional_Report.docx
+2026-07-26 09:56:46 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-26 09:56:46 | INFO     | universal_rag | Saved uploaded file 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data\pdf\Olympic_Industries_Sample_Policy_Dataset.pdf
+2026-07-26 09:56:48 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-26 09:56:48 | INFO     | modules.splitter | split_documents: 49 docs -> 151 chunks
+2026-07-26 09:56:48 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-26 09:56:57 | INFO     | modules.rag_chain | [b406b2c2-c27a-45fd-bd60-50fb3fb3ddf8] Question detected as 'en': hi
+2026-07-26 09:56:57 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-26 09:57:43 | INFO     | modules.rag_chain | [b406b2c2-c27a-45fd-bd60-50fb3fb3ddf8] Question detected as 'en': what is the core value of olympic Industries ltmt?
+2026-07-26 09:57:43 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
