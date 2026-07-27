@@ -1,0 +1,2 @@
+2026-07-27 10:52:43 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 10:53:22 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')

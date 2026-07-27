@@ -47,7 +47,7 @@ Universal-RAG/
 ├── cache/                   # reserved for future caching use
 │
 ├── assets/
-│   ├── logo.png             # optional, shown in the sidebar if present
+│   ├── logo.png             #  the sidebar if present
 │   └── banner.png
 │
 ├── modules/
@@ -65,7 +65,7 @@ Universal-RAG/
 │   └── utils.py             # logging, language detection, file helpers
 │
 └── templates/
-    └── chat_export_template.html   # optional HTML export template
+    └── chat_export_template.html   
 ```
 
 ---
@@ -76,8 +76,8 @@ Universal-RAG/
 
 ```bash
 cd Universal-RAG
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
+conda create --name universal-rag python=3.10
+conda deactivate universal-rag
 pip install -r requirements.txt
 ```
 
@@ -87,15 +87,15 @@ Open `.env` and set at least:
 
 ```dotenv
 OPENAI_API_KEY=sk-...your-key...
-LLM_MODEL=gpt-4o-mini
+LLM_MODEL=gemini-2.5-flash
 EMBEDDING_PROVIDER=huggingface   # or "openai" if you want OpenAI embeddings too
 ```
 
-- `OPENAI_API_KEY` is required for the chat model (answer generation).
+- `GOOGLE_API_KEY` is required for the chat model (answer generation).
 - `EMBEDDING_PROVIDER=huggingface` (default) runs embeddings **locally for
   free** using a multilingual model that supports Bangla well — no extra
   API cost, but the first run will download the model (~1 GB).
-- Set `EMBEDDING_PROVIDER=openai` to instead use OpenAI's
+- Set `EMBEDDING_PROVIDER=huggingface` to instead use OpenAI's
   `text-embedding-3-large` for embeddings (higher quality, costs API credits).
 
 ### 3. Add your business documents
@@ -134,10 +134,10 @@ Open the URL Streamlit prints (usually `http://localhost:8501`).
 
 | Variable | Description | Default |
 |---|---|---|
-| `OPENAI_API_KEY` | OpenAI API key for the chat LLM | — |
-| `LLM_MODEL` | Chat model name | `gpt-4o-mini` |
+| `GOOGLE_API_KEY` | OpenAI API key for the chat LLM | — |
+| `LLM_MODEL` | Chat model name | `gemini-2.5-flash` |
 | `LLM_TEMPERATURE` | Response creativity (0 = deterministic) | `0.2` |
-| `EMBEDDING_PROVIDER` | `openai` or `huggingface` | `huggingface` |
+| `EMBEDDING_PROVIDER` | `huggingface` | `huggingface` |
 | `OPENAI_EMBEDDING_MODEL` | OpenAI embedding model | `text-embedding-3-large` |
 | `HF_EMBEDDING_MODEL` | Local multilingual embedding model | `paraphrase-multilingual-mpnet-base-v2` |
 | `CHROMA_PERSIST_DIR` | Vector store folder | `chroma_db` |
@@ -154,7 +154,7 @@ Open the URL Streamlit prints (usually `http://localhost:8501`).
   and register it in `_LOADER_MAP` + `config.SUPPORTED_EXTENSIONS`.
 - **Add a 3rd language**: extend `modules/utils.py::detect_language` and
   add a matching system prompt block in `modules/prompt.py`.
-- **Swap the LLM provider**: replace `ChatOpenAI` in `modules/rag_chain.py`
+- **Swap the LLM provider**: replace `ChatGoogleGenerativeAI` in `modules/rag_chain.py`
   with another LangChain chat model (e.g. Anthropic, Azure OpenAI, local
   Ollama model).
 - **Export chat transcripts**: `templates/chat_export_template.html` is a
