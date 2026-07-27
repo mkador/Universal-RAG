@@ -213,7 +213,6 @@ System. Lets business users:
 Run with:
     streamlit run app.py
 """
-
 import io
 import re
 import uuid
@@ -877,19 +876,19 @@ st.markdown(
 st.markdown(
     """
     <div class="hero-banner">
-        <div class="hero-eyebrow">✦ Multilingual RAG Assistant</div>
+        <div class="hero-eyebrow">✦ AI-Powered Multilingual (English + Bangla) Business Query System (RAG)</div>
         <h1>Ask your business question</h1>
         <p>Ask in English or Bangla — I'll detect the language and answer in kind,
         grounded strictly in your uploaded business documents, with full source citations.<br>
-        ইংরেজি অথবা বাংলায় জিজ্ঞাসা করুন। আমি ভাষা শনাক্ত করে একই ভাষায় উত্তর দেব।</p>
+        </p>
     </div>
     """,
     unsafe_allow_html=True,
 )
 
-if not settings.GOOGLE_API_KEY:
+if not settings.GROQ_API_KEY:
     st.warning(
-        "⚠️ `GOOGLE_API_KEY` is not set in your `.env` file. The chat model "
+        "⚠️ `GROQ_API_KEY` is not set in your `.env` file. The chat model "
         "will not work until you add a valid key.",
         icon="⚠️",
     )

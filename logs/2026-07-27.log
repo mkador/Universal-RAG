@@ -1,2 +1,219 @@
 2026-07-27 10:52:43 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
 2026-07-27 10:53:22 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 11:20:29 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 11:20:44 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 11:22:06 | INFO     | modules.website_loader | Loaded website 'https://olympicbd.com/' -> 3 characters
+2026-07-27 11:22:06 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 11:22:06 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 11:22:44 | INFO     | modules.rag_chain | [e27e0074-0ef6-44d2-b38f-7382fa2793a9] Question detected as 'en': Tell me the history of Olympic?
+2026-07-27 11:22:44 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 11:35:41 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 11:35:57 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 11:36:24 | WARNING  | modules.website_loader | No readable text found : https://olympicbd.com/about-us/history-milestone
+2026-07-27 11:36:53 | INFO     | modules.rag_chain | [3708ad95-bbfd-4405-a44b-31b032c3e4cb] Question detected as 'en': Tell me the history of Olympic industries?
+2026-07-27 11:36:53 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 11:42:07 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 11:42:27 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 11:42:44 | WARNING  | modules.website_loader | No/low readable text extracted from 'https://www.inceptionbd.com/' — page may be JS-rendered
+2026-07-27 11:43:03 | INFO     | modules.rag_chain | [9402835d-3c73-431e-a6ec-3e7b996fd541] Question detected as 'en': Tell me about inception bd
+2026-07-27 11:43:03 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:03:51 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 14:04:48 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 14:05:02 | WARNING  | modules.website_loader | Playwright failed : 
+2026-07-27 14:05:02 | INFO     | modules.website_loader | BeautifulSoup extraction success
+2026-07-27 14:05:02 | INFO     | modules.website_loader | Loaded 'https://olympicbd.com/' using beautifulsoup
+2026-07-27 14:05:02 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:05:07 | INFO     | modules.vectordb | add_documents: added 1 new chunk(s) to the vector store
+2026-07-27 14:05:46 | INFO     | modules.rag_chain | [d511ceef-9113-439c-81bf-923cebcb6ded] Question detected as 'en': Tell me about Olympic Industries ltd?
+2026-07-27 14:05:46 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:08:30 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 14:09:06 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 14:09:19 | WARNING  | modules.website_loader | Playwright failed : 
+2026-07-27 14:09:20 | INFO     | modules.website_loader | BeautifulSoup extraction success
+2026-07-27 14:09:20 | INFO     | modules.website_loader | Loaded 'https://olympicbd.com/' using beautifulsoup
+2026-07-27 14:09:20 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:09:20 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 14:09:51 | INFO     | modules.rag_chain | [c8d81d25-0271-4fa6-9019-82a6176c6244] Question detected as 'en': tell me about Olympic Industries ltd?
+2026-07-27 14:09:51 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:12:02 | INFO     | modules.rag_chain | [c8d81d25-0271-4fa6-9019-82a6176c6244] Question detected as 'en': what is Chairman's Message?
+2026-07-27 14:12:02 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:13:04 | INFO     | modules.website_loader | Trafilatura extraction success
+2026-07-27 14:13:04 | INFO     | modules.website_loader | Loaded 'https://www.rokomari.com/' using trafilatura
+2026-07-27 14:13:04 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:13:07 | INFO     | modules.vectordb | add_documents: added 1 new chunk(s) to the vector store
+2026-07-27 14:13:30 | INFO     | modules.rag_chain | [c8d81d25-0271-4fa6-9019-82a6176c6244] Question detected as 'en': what about rokomari?
+2026-07-27 14:13:30 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:14:01 | INFO     | modules.loaders | Loaded PDF '01_company_profile_demo.pdf' -> 2 page(s)
+2026-07-27 14:14:01 | INFO     | modules.loaders | Loaded PDF '02_employee_handbook_demo.pdf' -> 2 page(s)
+2026-07-27 14:14:01 | INFO     | modules.loaders | Loaded PDF '03_hr_policy_manual_demo.pdf' -> 1 page(s)
+2026-07-27 14:14:01 | INFO     | modules.loaders | Loaded PDF '04_leave_policy_demo.pdf' -> 1 page(s)
+2026-07-27 14:14:06 | INFO     | modules.loaders | Loaded PDF 'ML_Interview_Questions_Answers_Bilingual.pdf' -> 32 page(s)
+2026-07-27 14:14:09 | INFO     | modules.loaders | Loaded PDF 'Nakib Islam.pdf' -> 2 page(s)
+2026-07-27 14:14:09 | INFO     | modules.loaders | Loaded PDF 'Olympic_Enterprise_RAG_Demo_Documents.pdf' -> 2 page(s)
+2026-07-27 14:14:10 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-27 14:14:10 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-27 14:14:10 | INFO     | modules.loaders | load_directory: loaded 91 document chunks total from D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\data
+2026-07-27 14:14:10 | INFO     | modules.splitter | split_documents: 91 docs -> 252 chunks
+2026-07-27 14:14:10 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 14:14:32 | INFO     | modules.rag_chain | [c8d81d25-0271-4fa6-9019-82a6176c6244] Question detected as 'en': what about rokomari?
+2026-07-27 14:14:32 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:15:01 | INFO     | modules.rag_chain | [c8d81d25-0271-4fa6-9019-82a6176c6244] Question detected as 'bn': Do you know  সিয়ান পাবলিকেশন লি?
+2026-07-27 14:15:01 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:22:57 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 14:23:46 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 14:24:11 | INFO     | modules.website_loader | Trafilatura extraction success
+2026-07-27 14:24:11 | INFO     | modules.website_loader | Loaded 'https://www.rokomari.com/' using trafilatura
+2026-07-27 14:24:11 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:24:11 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 14:24:27 | INFO     | modules.rag_chain | [3f6b18b7-e8b0-4daa-ac2f-d6129495112e] Question detected as 'en': tumi ki rokomari chino?
+2026-07-27 14:24:27 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:24:59 | INFO     | modules.rag_chain | [3f6b18b7-e8b0-4daa-ac2f-d6129495112e] Question detected as 'en': sean publication chino?
+2026-07-27 14:24:59 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:47:02 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 14:47:35 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 14:47:47 | INFO     | modules.rag_chain | [1f95d30d-2ca0-4a9a-958d-f57ad085531a] Question detected as 'en': hi
+2026-07-27 14:47:47 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:48:11 | INFO     | modules.rag_chain | [1f95d30d-2ca0-4a9a-958d-f57ad085531a] Question detected as 'en': what are you doing?
+2026-07-27 14:48:11 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:48:32 | INFO     | modules.rag_chain | [1f95d30d-2ca0-4a9a-958d-f57ad085531a] Question detected as 'en': tumi ki sean publication chino?
+2026-07-27 14:48:32 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:48:44 | INFO     | modules.rag_chain | [1f95d30d-2ca0-4a9a-958d-f57ad085531a] Question detected as 'en': rokomari chino?
+2026-07-27 14:48:44 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:49:21 | INFO     | modules.website_loader | Trafilatura extraction success
+2026-07-27 14:49:21 | INFO     | modules.website_loader | Loaded 'https://www.rokomari.com/' using trafilatura
+2026-07-27 14:49:21 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:49:21 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 14:49:35 | INFO     | modules.rag_chain | [1f95d30d-2ca0-4a9a-958d-f57ad085531a] Question detected as 'en': rokomari chino?
+2026-07-27 14:49:35 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:50:18 | INFO     | modules.website_loader | Trafilatura extraction success
+2026-07-27 14:50:18 | INFO     | modules.website_loader | Loaded 'https://olympicbd.com/olympic/chairmans-message' using trafilatura
+2026-07-27 14:50:18 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:50:23 | INFO     | modules.vectordb | add_documents: added 1 new chunk(s) to the vector store
+2026-07-27 14:50:44 | INFO     | modules.rag_chain | [1f95d30d-2ca0-4a9a-958d-f57ad085531a] Question detected as 'en': Chairman's Message somporke bolte parbe?
+2026-07-27 14:50:44 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:55:16 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 14:55:47 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 14:56:07 | INFO     | modules.rag_chain | [e4516968-f918-445d-8131-17a807cdee14] Question detected as 'en': rokomari chino?
+2026-07-27 14:56:07 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:56:38 | INFO     | modules.website_loader | Loading https://www.rokomari.com/ (Attempt 1/2)
+2026-07-27 14:56:38 | WARNING  | modules.website_loader | Playwright failed for https://www.rokomari.com/: 
+2026-07-27 14:56:48 | INFO     | modules.website_loader | Trafilatura extraction successful.
+2026-07-27 14:56:48 | INFO     | modules.website_loader | ✅ Successfully loaded 'https://www.rokomari.com/' using 'trafilatura'
+2026-07-27 14:56:48 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:56:48 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 14:57:09 | INFO     | modules.rag_chain | [e4516968-f918-445d-8131-17a807cdee14] Question detected as 'en': rokomari chino?
+2026-07-27 14:57:09 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 14:57:22 | INFO     | modules.website_loader | Loading https://www.rokomari.com/ (Attempt 1/2)
+2026-07-27 14:57:22 | WARNING  | modules.website_loader | Playwright failed for https://www.rokomari.com/: 
+2026-07-27 14:57:29 | INFO     | modules.website_loader | Trafilatura extraction successful.
+2026-07-27 14:57:29 | INFO     | modules.website_loader | ✅ Successfully loaded 'https://www.rokomari.com/' using 'trafilatura'
+2026-07-27 14:57:29 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 14:57:29 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 15:00:53 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 15:02:03 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 15:03:48 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 1/2)
+2026-07-27 15:03:48 | WARNING  | modules.website_loader | Playwright failed for https://olympicbd.com/: 
+2026-07-27 15:04:10 | ERROR    | modules.website_loader | BeautifulSoup failed: 403 Client Error: Forbidden for url: https://olympicbd.com/
+2026-07-27 15:04:10 | WARNING  | modules.website_loader | Attempt 1 failed for https://olympicbd.com/. Retrying...
+2026-07-27 15:04:10 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 2/2)
+2026-07-27 15:04:10 | WARNING  | modules.website_loader | Playwright failed for https://olympicbd.com/: 
+2026-07-27 15:04:11 | ERROR    | modules.website_loader | BeautifulSoup failed: 403 Client Error: Forbidden for url: https://olympicbd.com/
+2026-07-27 15:04:11 | WARNING  | modules.website_loader | Attempt 2 failed for https://olympicbd.com/. Retrying...
+2026-07-27 15:04:11 | ERROR    | modules.website_loader | ❌ Unable to extract content from https://olympicbd.com/ after 2 attempts.
+2026-07-27 15:09:17 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 15:10:14 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 15:10:35 | INFO     | modules.rag_chain | [b63217dd-3d43-401d-8578-22cc3b9d1d34] Question detected as 'en': hi
+2026-07-27 15:10:35 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:12:05 | INFO     | modules.rag_chain | [b63217dd-3d43-401d-8578-22cc3b9d1d34] Question detected as 'en': rokomari somporke ki jano?
+2026-07-27 15:12:05 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:12:45 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 1/2)
+2026-07-27 15:12:45 | WARNING  | modules.website_loader | Playwright failed for https://olympicbd.com/: 
+2026-07-27 15:13:33 | ERROR    | modules.website_loader | BeautifulSoup failed: HTTPSConnectionPool(host='olympicbd.com', port=443): Read timed out. (read timeout=45)
+2026-07-27 15:13:34 | WARNING  | modules.website_loader | Attempt 1 failed for https://olympicbd.com/. Retrying...
+2026-07-27 15:13:34 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 2/2)
+2026-07-27 15:13:34 | WARNING  | modules.website_loader | Playwright failed for https://olympicbd.com/: 
+2026-07-27 15:13:35 | ERROR    | modules.website_loader | BeautifulSoup failed: 403 Client Error: Forbidden for url: https://olympicbd.com/
+2026-07-27 15:13:35 | WARNING  | modules.website_loader | Attempt 2 failed for https://olympicbd.com/. Retrying...
+2026-07-27 15:13:35 | ERROR    | modules.website_loader | ❌ Unable to extract content from https://olympicbd.com/ after 2 attempts.
+2026-07-27 15:17:17 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 15:18:35 | WARNING  | modules.vectordb | collection_count failed: SegmentAPI.get_settings: return type `<function <lambda> at 0x000002CACBEFA340>` is not a `<class 'chromadb.config.Settings'>`.
+2026-07-27 15:18:35 | WARNING  | modules.vectordb | list_sources failed: SegmentAPI.get_settings: return type `<function <lambda> at 0x000002CACBEFA340>` is not a `<class 'chromadb.config.Settings'>`.
+2026-07-27 15:18:36 | WARNING  | modules.vectordb | list_sources failed: SegmentAPI.get_settings: return type `<function <lambda> at 0x000002CACBEFA340>` is not a `<class 'chromadb.config.Settings'>`.
+2026-07-27 15:18:53 | WARNING  | modules.vectordb | collection_count failed: chromadb.config.Settings() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:18:53 | WARNING  | modules.vectordb | list_sources failed: chromadb.config.Settings() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:18:53 | WARNING  | modules.vectordb | list_sources failed: chromadb.config.Settings() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:18:53 | WARNING  | modules.vectordb | collection_count failed: chromadb.config.Settings() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:19:22 | WARNING  | modules.vectordb | collection_count failed: __main__.<lambda>() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:19:22 | WARNING  | modules.vectordb | list_sources failed: __main__.<lambda>() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:19:23 | WARNING  | modules.vectordb | list_sources failed: __main__.<lambda>() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:19:23 | WARNING  | modules.vectordb | collection_count failed: __main__.<lambda>() got multiple values for keyword argument 'anonymized_telemetry'
+2026-07-27 15:20:23 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 15:20:52 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 15:21:03 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': hi
+2026-07-27 15:21:03 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:21:35 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': tumi ki olympic industries somporke jano?
+2026-07-27 15:21:35 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:22:01 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 1/2)
+2026-07-27 15:22:27 | INFO     | modules.website_loader | Playwright extraction successful.
+2026-07-27 15:22:27 | INFO     | modules.website_loader | ✅ Successfully loaded 'https://olympicbd.com/' using 'playwright'
+2026-07-27 15:22:27 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 15:22:29 | INFO     | modules.vectordb | add_documents: added 1 new chunk(s) to the vector store
+2026-07-27 15:22:54 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': Olympic Industries Limited er chairman er message ta dao
+2026-07-27 15:22:54 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:27:15 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': hi
+2026-07-27 15:27:15 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:27:42 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': Olympic Industries Limited er chairman er message ta dao
+2026-07-27 15:27:42 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:28:08 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 1/2)
+2026-07-27 15:28:31 | INFO     | modules.website_loader | Playwright extraction successful.
+2026-07-27 15:28:31 | INFO     | modules.website_loader | ✅ Successfully loaded 'https://olympicbd.com/' using 'playwright'
+2026-07-27 15:28:31 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 15:28:31 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 15:28:44 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': Olympic Industries Limited er chairman er message ta dao
+2026-07-27 15:28:44 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:33:30 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'bn': অলিম্পিক ইন্ডাস্ট্রিজ লিমিটেড somporke ki jano?
+2026-07-27 15:33:30 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 15:50:32 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-27 15:50:36 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-27 15:50:36 | INFO     | modules.splitter | split_documents: 49 docs -> 151 chunks
+2026-07-27 15:50:36 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 15:50:55 | INFO     | modules.rag_chain | [bb4f7f87-9be4-4ed7-a73b-8a890d3fd491] Question detected as 'en': ekhane koyta file ase?
+2026-07-27 15:50:55 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:11:59 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 16:12:18 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 16:17:27 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 16:17:49 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 16:19:40 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 16:19:53 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 16:19:54 | INFO     | modules.rag_chain | [8225d962-bb20-404e-9398-52b462bf7a1b] Question detected as 'en': hi
+2026-07-27 16:19:54 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:24:19 | INFO     | modules.embeddings | Using HuggingFace multilingual embeddings: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2026-07-27 16:24:37 | INFO     | modules.vectordb | Chroma vector store ready at 'D:\AI-Inceptionbd(25 october 2025)\AI Projects\Universal-RAG\chroma_db' (collection='universal_rag_business')
+2026-07-27 16:24:48 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': hi
+2026-07-27 16:24:48 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:25:18 | INFO     | modules.loaders | Loaded DOCX 'Olympic_Industries_PLC_Professional_Report.docx'
+2026-07-27 16:25:20 | INFO     | modules.loaders | Loaded PDF 'Olympic_Industries_Sample_Policy_Dataset.pdf' -> 48 page(s)
+2026-07-27 16:25:20 | INFO     | modules.splitter | split_documents: 49 docs -> 151 chunks
+2026-07-27 16:25:20 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 16:26:33 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': Tell me about Employment Categories
+2026-07-27 16:26:33 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:27:12 | INFO     | modules.website_loader | Loading https://olympicbd.com/ (Attempt 1/2)
+2026-07-27 16:27:38 | INFO     | modules.website_loader | Playwright extraction successful.
+2026-07-27 16:27:38 | INFO     | modules.website_loader | ✅ Successfully loaded 'https://olympicbd.com/' using 'playwright'
+2026-07-27 16:27:38 | INFO     | modules.splitter | split_documents: 1 docs -> 1 chunks
+2026-07-27 16:27:38 | INFO     | modules.vectordb | add_documents: nothing new to add (all chunks already indexed)
+2026-07-27 16:28:00 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': olympic industries somporke ki jano ?
+2026-07-27 16:28:00 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:28:39 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': eder official website konta?
+2026-07-27 16:28:39 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:29:23 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': website theke chairman er message ta dao
+2026-07-27 16:29:23 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:29:53 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': rokomari somporke ki jano?
+2026-07-27 16:29:53 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None
+2026-07-27 16:30:46 | INFO     | modules.website_loader | Loading https://www.rokomari.com/ (Attempt 1/2)
+2026-07-27 16:31:28 | INFO     | modules.website_loader | Playwright extraction successful.
+2026-07-27 16:31:28 | INFO     | modules.website_loader | ✅ Successfully loaded 'https://www.rokomari.com/' using 'playwright'
+2026-07-27 16:31:28 | INFO     | modules.splitter | split_documents: 1 docs -> 37 chunks
+2026-07-27 16:31:59 | INFO     | modules.vectordb | add_documents: added 37 new chunk(s) to the vector store
+2026-07-27 16:32:24 | INFO     | modules.rag_chain | [7263095c-37a1-4666-bd11-a5c6c6db9082] Question detected as 'en': rokomarir best selling koyekta boi er talika dao
+2026-07-27 16:32:24 | INFO     | modules.retriever | Building retriever: type=mmr, k=5, filter=None

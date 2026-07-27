@@ -19,7 +19,7 @@ from modules.prompt import build_chat_prompt, get_fallback_message
 from modules.chat_memory import chat_memory
 from modules.metadata import build_context_string, format_sources
 from modules.utils import get_logger, detect_language
-
+from langchain_groq import ChatGroq
 logger = get_logger(__name__)
 
 
@@ -33,15 +33,15 @@ class RAGResponse:
 
 
 def get_llm(temperature: Optional[float] = None) -> ChatOpenAI:
-    if not settings.GOOGLE_API_KEY:
+    if not settings.GROQ_API_KEY:
         raise RuntimeError(
-            "GOOGLE_API_KEY is not set. Please add it to your .env file "
+            "GROQ_API_KEY is not set. Please add it to your .env file "
             "to enable the language model."
         )
-    return ChatGoogleGenerativeAI(
+    return ChatGroq(
         model=settings.LLM_MODEL,
         temperature=temperature if temperature is not None else settings.LLM_TEMPERATURE,
-        google_api_key=settings.GOOGLE_API_KEY,
+        groq_api_key=settings.GROQ_API_KEY,
     )
 
 

@@ -54,8 +54,12 @@ class Settings:
     MARKDOWN_DIR: Path = DATA_DIR / "markdown"
 
     # ---------------- LLM ----------------
-    GOOGLE_API_KEY: str = os.getenv("GOOGLE_API_KEY", "")
-    LLM_MODEL: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
+    # GOOGLE_API_KEY: str = os.getenv("GOOGLE_API_KEY", "")
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+    # LLM_MODEL: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
+    # LLM_MODEL: str = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+    LLM_MODEL: str = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
+    
     LLM_TEMPERATURE: float = _get_float("LLM_TEMPERATURE", 0.2)
 
     # ---------------- Embeddings ----------------
@@ -78,7 +82,7 @@ class Settings:
     SEARCH_TYPE: str = os.getenv("SEARCH_TYPE", "mmr")  # "similarity" | "mmr"
 
     # ---------------- App ----------------
-    APP_NAME: str = os.getenv("APP_NAME", "Universal RAG - Business Assistant")
+    APP_NAME: str = os.getenv("APP_NAME", "AI Universal RAG - Business Assistant")
     APP_LANGUAGES = tuple(os.getenv("APP_LANGUAGES", "en,bn").split(","))
     DEFAULT_LANGUAGE: str = os.getenv("DEFAULT_LANGUAGE", "auto")
 

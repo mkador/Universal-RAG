@@ -54,9 +54,6 @@ def get_logger(name: str = "universal_rag") -> logging.Logger:
     return logger
 
 
-logger = get_logger()
-
-
 # ------------------------------------------------------------------
 # Language detection (English / Bangla, with graceful fallback)
 # ------------------------------------------------------------------
@@ -137,7 +134,8 @@ def save_uploaded_file(file_bytes: bytes, filename: str) -> Path:
     settings.UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
     (settings.UPLOADS_DIR / safe_name).write_bytes(file_bytes)
 
-    logger.info(f"Saved uploaded file '{filename}' -> {target_path}")
+    # NOTE: আমরা এখানে logger ব্যবহার করছি না, কারণ এই ফাংশনটি যেকোনো জায়গা থেকে কল হতে পারে।
+    # মূল অ্যাপে logger ব্যবহার করা হয়েছে।
     return target_path
 
 
