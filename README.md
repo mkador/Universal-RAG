@@ -77,7 +77,7 @@ Universal-RAG/
 ```bash
 cd Universal-RAG
 conda create --name universal-rag python=3.10
-conda deactivate universal-rag
+conda activate universal-rag
 pip install -r requirements.txt
 ```
 
